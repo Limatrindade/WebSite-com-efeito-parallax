@@ -1,0 +1,41 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.text{
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 1.5em;
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+.box1, .box2, .box3{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.box1{
+    background-image: url(imagem6.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.box2{
+    background-image: url(imagem5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.box3{
+    background-image: url(imagem4.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
